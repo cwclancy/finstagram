@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEE24D9F20F3FBD500AC5BFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE24D9E20F3FBD500AC5BFE /* AppDelegate.m */; };
+		CEE24DA220F3FBD500AC5BFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE24DA120F3FBD500AC5BFE /* ViewController.m */; };
+		CEE24DA520F3FBD500AC5BFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE24DA320F3FBD500AC5BFE /* Main.storyboard */; };
+		CEE24DA720F3FBD600AC5BFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE24DA620F3FBD600AC5BFE /* Assets.xcassets */; };
+		CEE24DAA20F3FBD600AC5BFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE24DA820F3FBD600AC5BFE /* LaunchScreen.storyboard */; };
+		CEE24DAD20F3FBD600AC5BFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE24DAC20F3FBD600AC5BFE /* main.m */; };
+		CEE24DB720F3FBD600AC5BFE /* fbuinstagramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE24DB620F3FBD600AC5BFE /* fbuinstagramTests.m */; };
+		CEE24DC220F3FBD600AC5BFE /* fbuinstagramUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE24DC120F3FBD600AC5BFE /* fbuinstagramUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEE24DB320F3FBD600AC5BFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEE24D9220F3FBD500AC5BFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEE24D9920F3FBD500AC5BFE;
+			remoteInfo = fbuinstagram;
+		};
+		CEE24DBE20F3FBD600AC5BFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEE24D9220F3FBD500AC5BFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEE24D9920F3FBD500AC5BFE;
+			remoteInfo = fbuinstagram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEE24D9A20F3FBD500AC5BFE /* fbuinstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fbuinstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE24D9D20F3FBD500AC5BFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEE24D9E20F3FBD500AC5BFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEE24DA020F3FBD500AC5BFE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEE24DA120F3FBD500AC5BFE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEE24DA420F3FBD500AC5BFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEE24DA620F3FBD600AC5BFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEE24DA920F3FBD600AC5BFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEE24DAB20F3FBD600AC5BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE24DAC20F3FBD600AC5BFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEE24DB220F3FBD600AC5BFE /* fbuinstagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fbuinstagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE24DB620F3FBD600AC5BFE /* fbuinstagramTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fbuinstagramTests.m; sourceTree = "<group>"; };
+		CEE24DB820F3FBD600AC5BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE24DBD20F3FBD600AC5BFE /* fbuinstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fbuinstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE24DC120F3FBD600AC5BFE /* fbuinstagramUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fbuinstagramUITests.m; sourceTree = "<group>"; };
+		CEE24DC320F3FBD600AC5BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEE24D9720F3FBD500AC5BFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE24DAF20F3FBD600AC5BFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE24DBA20F3FBD600AC5BFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEE24D9120F3FBD500AC5BFE = {
+			isa = PBXGroup;
+			children = (
+				CEE24D9C20F3FBD500AC5BFE /* fbuinstagram */,
+				CEE24DB520F3FBD600AC5BFE /* fbuinstagramTests */,
+				CEE24DC020F3FBD600AC5BFE /* fbuinstagramUITests */,
+				CEE24D9B20F3FBD500AC5BFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEE24D9B20F3FBD500AC5BFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEE24D9A20F3FBD500AC5BFE /* fbuinstagram.app */,
+				CEE24DB220F3FBD600AC5BFE /* fbuinstagramTests.xctest */,
+				CEE24DBD20F3FBD600AC5BFE /* fbuinstagramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEE24D9C20F3FBD500AC5BFE /* fbuinstagram */ = {
+			isa = PBXGroup;
+			children = (
+				CEE24D9D20F3FBD500AC5BFE /* AppDelegate.h */,
+				CEE24D9E20F3FBD500AC5BFE /* AppDelegate.m */,
+				CEE24DA020F3FBD500AC5BFE /* ViewController.h */,
+				CEE24DA120F3FBD500AC5BFE /* ViewController.m */,
+				CEE24DA320F3FBD500AC5BFE /* Main.storyboard */,
+				CEE24DA620F3FBD600AC5BFE /* Assets.xcassets */,
+				CEE24DA820F3FBD600AC5BFE /* LaunchScreen.storyboard */,
+				CEE24DAB20F3FBD600AC5BFE /* Info.plist */,
+				CEE24DAC20F3FBD600AC5BFE /* main.m */,
+			);
+			path = fbuinstagram;
+			sourceTree = "<group>";
+		};
+		CEE24DB520F3FBD600AC5BFE /* fbuinstagramTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEE24DB620F3FBD600AC5BFE /* fbuinstagramTests.m */,
+				CEE24DB820F3FBD600AC5BFE /* Info.plist */,
+			);
+			path = fbuinstagramTests;
+			sourceTree = "<group>";
+		};
+		CEE24DC020F3FBD600AC5BFE /* fbuinstagramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEE24DC120F3FBD600AC5BFE /* fbuinstagramUITests.m */,
+				CEE24DC320F3FBD600AC5BFE /* Info.plist */,
+			);
+			path = fbuinstagramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEE24D9920F3FBD500AC5BFE /* fbuinstagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE24DC620F3FBD600AC5BFE /* Build configuration list for PBXNativeTarget "fbuinstagram" */;
+			buildPhases = (
+				CEE24D9620F3FBD500AC5BFE /* Sources */,
+				CEE24D9720F3FBD500AC5BFE /* Frameworks */,
+				CEE24D9820F3FBD500AC5BFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fbuinstagram;
+			productName = fbuinstagram;
+			productReference = CEE24D9A20F3FBD500AC5BFE /* fbuinstagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEE24DB120F3FBD600AC5BFE /* fbuinstagramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE24DC920F3FBD600AC5BFE /* Build configuration list for PBXNativeTarget "fbuinstagramTests" */;
+			buildPhases = (
+				CEE24DAE20F3FBD600AC5BFE /* Sources */,
+				CEE24DAF20F3FBD600AC5BFE /* Frameworks */,
+				CEE24DB020F3FBD600AC5BFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEE24DB420F3FBD600AC5BFE /* PBXTargetDependency */,
+			);
+			name = fbuinstagramTests;
+			productName = fbuinstagramTests;
+			productReference = CEE24DB220F3FBD600AC5BFE /* fbuinstagramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEE24DBC20F3FBD600AC5BFE /* fbuinstagramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE24DCC20F3FBD600AC5BFE /* Build configuration list for PBXNativeTarget "fbuinstagramUITests" */;
+			buildPhases = (
+				CEE24DB920F3FBD600AC5BFE /* Sources */,
+				CEE24DBA20F3FBD600AC5BFE /* Frameworks */,
+				CEE24DBB20F3FBD600AC5BFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEE24DBF20F3FBD600AC5BFE /* PBXTargetDependency */,
+			);
+			name = fbuinstagramUITests;
+			productName = fbuinstagramUITests;
+			productReference = CEE24DBD20F3FBD600AC5BFE /* fbuinstagramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEE24D9220F3FBD500AC5BFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = codepath;
+				TargetAttributes = {
+					CEE24D9920F3FBD500AC5BFE = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					CEE24DB120F3FBD600AC5BFE = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CEE24D9920F3FBD500AC5BFE;
+					};
+					CEE24DBC20F3FBD600AC5BFE = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CEE24D9920F3FBD500AC5BFE;
+					};
+				};
+			};
+			buildConfigurationList = CEE24D9520F3FBD500AC5BFE /* Build configuration list for PBXProject "fbuinstagram" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEE24D9120F3FBD500AC5BFE;
+			productRefGroup = CEE24D9B20F3FBD500AC5BFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEE24D9920F3FBD500AC5BFE /* fbuinstagram */,
+				CEE24DB120F3FBD600AC5BFE /* fbuinstagramTests */,
+				CEE24DBC20F3FBD600AC5BFE /* fbuinstagramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEE24D9820F3FBD500AC5BFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE24DAA20F3FBD600AC5BFE /* LaunchScreen.storyboard in Resources */,
+				CEE24DA720F3FBD600AC5BFE /* Assets.xcassets in Resources */,
+				CEE24DA520F3FBD500AC5BFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE24DB020F3FBD600AC5BFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE24DBB20F3FBD600AC5BFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEE24D9620F3FBD500AC5BFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE24DA220F3FBD500AC5BFE /* ViewController.m in Sources */,
+				CEE24DAD20F3FBD600AC5BFE /* main.m in Sources */,
+				CEE24D9F20F3FBD500AC5BFE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE24DAE20F3FBD600AC5BFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE24DB720F3FBD600AC5BFE /* fbuinstagramTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE24DB920F3FBD600AC5BFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE24DC220F3FBD600AC5BFE /* fbuinstagramUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEE24DB420F3FBD600AC5BFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEE24D9920F3FBD500AC5BFE /* fbuinstagram */;
+			targetProxy = CEE24DB320F3FBD600AC5BFE /* PBXContainerItemProxy */;
+		};
+		CEE24DBF20F3FBD600AC5BFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEE24D9920F3FBD500AC5BFE /* fbuinstagram */;
+			targetProxy = CEE24DBE20F3FBD600AC5BFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEE24DA320F3FBD500AC5BFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE24DA420F3FBD500AC5BFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEE24DA820F3FBD600AC5BFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE24DA920F3FBD600AC5BFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEE24DC420F3FBD600AC5BFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEE24DC520F3FBD600AC5BFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEE24DC720F3FBD600AC5BFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HDF54N6KHN;
+				INFOPLIST_FILE = fbuinstagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = connorclancy.fbuinstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEE24DC820F3FBD600AC5BFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HDF54N6KHN;
+				INFOPLIST_FILE = fbuinstagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = connorclancy.fbuinstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEE24DCA20F3FBD600AC5BFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HDF54N6KHN;
+				INFOPLIST_FILE = fbuinstagramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = connorclancy.fbuinstagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fbuinstagram.app/fbuinstagram";
+			};
+			name = Debug;
+		};
+		CEE24DCB20F3FBD600AC5BFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HDF54N6KHN;
+				INFOPLIST_FILE = fbuinstagramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = connorclancy.fbuinstagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fbuinstagram.app/fbuinstagram";
+			};
+			name = Release;
+		};
+		CEE24DCD20F3FBD600AC5BFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HDF54N6KHN;
+				INFOPLIST_FILE = fbuinstagramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = connorclancy.fbuinstagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fbuinstagram;
+			};
+			name = Debug;
+		};
+		CEE24DCE20F3FBD600AC5BFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HDF54N6KHN;
+				INFOPLIST_FILE = fbuinstagramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = connorclancy.fbuinstagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fbuinstagram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEE24D9520F3FBD500AC5BFE /* Build configuration list for PBXProject "fbuinstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE24DC420F3FBD600AC5BFE /* Debug */,
+				CEE24DC520F3FBD600AC5BFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE24DC620F3FBD600AC5BFE /* Build configuration list for PBXNativeTarget "fbuinstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE24DC720F3FBD600AC5BFE /* Debug */,
+				CEE24DC820F3FBD600AC5BFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE24DC920F3FBD600AC5BFE /* Build configuration list for PBXNativeTarget "fbuinstagramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE24DCA20F3FBD600AC5BFE /* Debug */,
+				CEE24DCB20F3FBD600AC5BFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE24DCC20F3FBD600AC5BFE /* Build configuration list for PBXNativeTarget "fbuinstagramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE24DCD20F3FBD600AC5BFE /* Debug */,
+				CEE24DCE20F3FBD600AC5BFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEE24D9220F3FBD500AC5BFE /* Project object */;
+}
