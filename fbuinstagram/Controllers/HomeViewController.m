@@ -24,14 +24,16 @@
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     // Do any additional setup after loading the view.
-    self.tableView.rowHeight = UITableViewAutomaticDimension;
-    
-    [self fetchPosts];
-    
     self.refreshControl = [UIRefreshControl new];
     [self.refreshControl addTarget:self action:@selector(fetchPosts) forControlEvents:UIControlEventValueChanged];
+    self.tableView.rowHeight = UITableViewAutomaticDimension;
     [self.tableView insertSubview:self.refreshControl atIndex:0];
     
+    
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [self fetchPosts];
     
 }
 

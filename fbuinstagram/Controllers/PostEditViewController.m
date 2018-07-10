@@ -43,6 +43,8 @@
         } else {
             NSLog(@"posted");
             // segue to home and update please
+            [self dismissViewControllerAnimated:YES completion:nil];
+            [self performSegueWithIdentifier:@"postHomeSegue" sender:nil];
         }
     }];
 }

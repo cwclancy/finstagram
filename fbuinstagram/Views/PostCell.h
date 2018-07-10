@@ -13,6 +13,7 @@
 #import <ParseUI/ParseUI.h>
 
 @interface PostCell : UITableViewCell
+@property (strong, nonatomic) IBOutlet UILabel *captionLabel;
 @property (strong, nonatomic) IBOutlet UILabel *commentLabel;
 @property (strong, nonatomic) IBOutlet UILabel *likeCountLabel;
 @property (strong, nonatomic) IBOutlet UIButton *commentButton;

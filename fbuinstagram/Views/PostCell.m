@@ -17,6 +17,8 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     // Initialization code
+    self.profilePicture.layer.cornerRadius = self.profilePicture.frame.size.width / 2;
+    self.profilePicture.clipsToBounds = YES;
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
@@ -29,7 +31,7 @@
     _post = post;
     self.postImage.file = post.image;
     [self.postImage loadInBackground];
-    self.commentLabel.text = post.caption;
+    self.captionLabel.text = post.caption;
     
     
     

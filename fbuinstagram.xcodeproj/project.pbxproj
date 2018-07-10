@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		26354BB1E3FB1E17E087AFC2 /* libPods-fbuinstagramTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74891AB5E382316537F62FCC /* libPods-fbuinstagramTests.a */; };
 		4B181B2AD5AB10D604A813D1 /* libPods-fbuinstagram.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36439DE5808EBEE629536113 /* libPods-fbuinstagram.a */; };
+		CE02073D20F52F270006FF33 /* ProfilePictureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE02073C20F52F270006FF33 /* ProfilePictureCell.m */; };
+		CE02074020F54EBC0006FF33 /* ProfileHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE02073F20F54EBC0006FF33 /* ProfileHeaderView.m */; };
+		CE02074320F55B750006FF33 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE02074220F55B750006FF33 /* DetailsViewController.m */; };
 		CEAB20D720F4009A00B69224 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAB20D620F4009A00B69224 /* LoginViewController.m */; };
 		CEAB20DA20F4010300B69224 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAB20D920F4010300B69224 /* HomeViewController.m */; };
 		CEAB20DD20F4011100B69224 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAB20DC20F4011100B69224 /* SearchViewController.m */; };
@@ -56,6 +59,12 @@
 		5B310BD41934F48B86C9A081 /* Pods-fbuinstagramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fbuinstagramUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-fbuinstagramUITests/Pods-fbuinstagramUITests.release.xcconfig"; sourceTree = "<group>"; };
 		74891AB5E382316537F62FCC /* libPods-fbuinstagramTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-fbuinstagramTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA7E0F32E96EB3D15BAAB92F /* Pods-fbuinstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fbuinstagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fbuinstagram/Pods-fbuinstagram.debug.xcconfig"; sourceTree = "<group>"; };
+		CE02073B20F52F270006FF33 /* ProfilePictureCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfilePictureCell.h; sourceTree = "<group>"; };
+		CE02073C20F52F270006FF33 /* ProfilePictureCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfilePictureCell.m; sourceTree = "<group>"; };
+		CE02073E20F54EBC0006FF33 /* ProfileHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileHeaderView.h; sourceTree = "<group>"; };
+		CE02073F20F54EBC0006FF33 /* ProfileHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileHeaderView.m; sourceTree = "<group>"; };
+		CE02074120F55B750006FF33 /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		CE02074220F55B750006FF33 /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 		CEAB20D520F4009A00B69224 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		CEAB20D620F4009A00B69224 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		CEAB20D820F4010300B69224 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
@@ -160,6 +169,10 @@
 			children = (
 				CEAB20F120F4285A00B69224 /* PostCell.h */,
 				CEAB20F220F4285A00B69224 /* PostCell.m */,
+				CE02073B20F52F270006FF33 /* ProfilePictureCell.h */,
+				CE02073C20F52F270006FF33 /* ProfilePictureCell.m */,
+				CE02073E20F54EBC0006FF33 /* ProfileHeaderView.h */,
+				CE02073F20F54EBC0006FF33 /* ProfileHeaderView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -183,6 +196,8 @@
 				CEAB20E520F4013500B69224 /* MyProfileViewController.m */,
 				CEAB20E720F40CD700B69224 /* NavBarController.h */,
 				CEAB20E820F40CD700B69224 /* NavBarController.m */,
+				CE02074120F55B750006FF33 /* DetailsViewController.h */,
+				CE02074220F55B750006FF33 /* DetailsViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -465,9 +480,12 @@
 				CEAB20E620F4013500B69224 /* MyProfileViewController.m in Sources */,
 				CEE24DA220F3FBD500AC5BFE /* ViewController.m in Sources */,
 				CEAB20F320F4285A00B69224 /* PostCell.m in Sources */,
+				CE02074020F54EBC0006FF33 /* ProfileHeaderView.m in Sources */,
 				CEAB20E920F40CD700B69224 /* NavBarController.m in Sources */,
 				CEE24DAD20F3FBD600AC5BFE /* main.m in Sources */,
+				CE02074320F55B750006FF33 /* DetailsViewController.m in Sources */,
 				CEAB20E020F4011C00B69224 /* AddViewController.m in Sources */,
+				CE02073D20F52F270006FF33 /* ProfilePictureCell.m in Sources */,
 				CEAB20DA20F4010300B69224 /* HomeViewController.m in Sources */,
 				CEAB20E320F4012600B69224 /* NotificationViewController.m in Sources */,
 				CEAB20EC20F4142200B69224 /* Post.m in Sources */,
