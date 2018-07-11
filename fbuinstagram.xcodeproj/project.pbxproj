@@ -12,6 +12,7 @@
 		CE02073D20F52F270006FF33 /* ProfilePictureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE02073C20F52F270006FF33 /* ProfilePictureCell.m */; };
 		CE02074020F54EBC0006FF33 /* ProfileHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE02073F20F54EBC0006FF33 /* ProfileHeaderView.m */; };
 		CE02074320F55B750006FF33 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE02074220F55B750006FF33 /* DetailsViewController.m */; };
+		CE02074620F565000006FF33 /* TakePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE02074520F565000006FF33 /* TakePhotoViewController.m */; };
 		CEAB20D720F4009A00B69224 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAB20D620F4009A00B69224 /* LoginViewController.m */; };
 		CEAB20DA20F4010300B69224 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAB20D920F4010300B69224 /* HomeViewController.m */; };
 		CEAB20DD20F4011100B69224 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAB20DC20F4011100B69224 /* SearchViewController.m */; };
@@ -65,6 +66,8 @@
 		CE02073F20F54EBC0006FF33 /* ProfileHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileHeaderView.m; sourceTree = "<group>"; };
 		CE02074120F55B750006FF33 /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
 		CE02074220F55B750006FF33 /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		CE02074420F565000006FF33 /* TakePhotoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TakePhotoViewController.h; sourceTree = "<group>"; };
+		CE02074520F565000006FF33 /* TakePhotoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TakePhotoViewController.m; sourceTree = "<group>"; };
 		CEAB20D520F4009A00B69224 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		CEAB20D620F4009A00B69224 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		CEAB20D820F4010300B69224 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
@@ -198,6 +201,8 @@
 				CEAB20E820F40CD700B69224 /* NavBarController.m */,
 				CE02074120F55B750006FF33 /* DetailsViewController.h */,
 				CE02074220F55B750006FF33 /* DetailsViewController.m */,
+				CE02074420F565000006FF33 /* TakePhotoViewController.h */,
+				CE02074520F565000006FF33 /* TakePhotoViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -479,6 +484,7 @@
 				CEAB20D720F4009A00B69224 /* LoginViewController.m in Sources */,
 				CEAB20E620F4013500B69224 /* MyProfileViewController.m in Sources */,
 				CEE24DA220F3FBD500AC5BFE /* ViewController.m in Sources */,
+				CE02074620F565000006FF33 /* TakePhotoViewController.m in Sources */,
 				CEAB20F320F4285A00B69224 /* PostCell.m in Sources */,
 				CE02074020F54EBC0006FF33 /* ProfileHeaderView.m in Sources */,
 				CEAB20E920F40CD700B69224 /* NavBarController.m in Sources */,

@@ -42,6 +42,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)clickLogout:(id)sender {
+}
 
 - (void)fetchPosts {
     PFQuery *query = [PFQuery queryWithClassName:@"Post"];
