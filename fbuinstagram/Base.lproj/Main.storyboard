@@ -75,13 +75,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="46w-tU-mkQ">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="46w-tU-mkQ">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="520" id="xJT-NJ-oJT" customClass="PostCell">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="520"/>
+                                        <rect key="frame" x="0.0" y="1" width="375" height="520"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xJT-NJ-oJT" id="029-1T-mrH">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="519.5"/>
@@ -639,7 +639,6 @@
         <!--Navigation Controller-->
         <scene sceneID="d6V-28-JUV">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="H58-MT-AqT" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jMN-3S-kP9" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" image="add-1" selectedImage="add-1" id="I3Z-FM-nLv"/>
                     <toolbarItems/>
@@ -652,6 +651,7 @@
                         <segue destination="cu6-gl-x80" kind="relationship" relationship="rootViewController" id="ZTV-xk-GTw"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H58-MT-AqT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2245.5999999999999" y="1004.3478260869566"/>
         </scene>
