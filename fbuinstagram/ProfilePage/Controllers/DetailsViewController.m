@@ -14,6 +14,7 @@
 @property (strong, nonatomic) IBOutlet UILabel *likesLabel;
 @property (strong, nonatomic) IBOutlet UILabel *captionLabel;
 @property (strong, nonatomic) IBOutlet UIImageView *profileImageView;
+//@property (strong, nonatomic) IBOutlet UILabel *timeLabel;
 
 @end
 
@@ -27,6 +28,10 @@
     self.captionLabel.text = self.post.caption;
     self.profileImageView.layer.cornerRadius = self.profileImageView.frame.size.width / 2;
     self.profileImageView.clipsToBounds = YES;
+//    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+//    [dateFormat setDateFormat:@"MM dd yyyy"];
+//    NSString *dateStr = [dateFormat stringFromDate:self.post.createdAt];
+//    self.timeLabel.text = dateStr;
 }
 
 - (void)didReceiveMemoryWarning {
