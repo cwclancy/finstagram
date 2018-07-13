@@ -19,12 +19,10 @@
 		CEAB20E020F4011C00B69224 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAB20DF20F4011C00B69224 /* AddViewController.m */; };
 		CEAB20E320F4012600B69224 /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAB20E220F4012600B69224 /* NotificationViewController.m */; };
 		CEAB20E620F4013500B69224 /* MyProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAB20E520F4013500B69224 /* MyProfileViewController.m */; };
-		CEAB20E920F40CD700B69224 /* NavBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAB20E820F40CD700B69224 /* NavBarController.m */; };
 		CEAB20EC20F4142200B69224 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAB20EB20F4142200B69224 /* Post.m */; };
 		CEAB20EF20F415A400B69224 /* PostEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAB20EE20F415A400B69224 /* PostEditViewController.m */; };
 		CEAB20F320F4285A00B69224 /* PostCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAB20F220F4285A00B69224 /* PostCell.m */; };
 		CEE24D9F20F3FBD500AC5BFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE24D9E20F3FBD500AC5BFE /* AppDelegate.m */; };
-		CEE24DA220F3FBD500AC5BFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE24DA120F3FBD500AC5BFE /* ViewController.m */; };
 		CEE24DA520F3FBD500AC5BFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE24DA320F3FBD500AC5BFE /* Main.storyboard */; };
 		CEE24DA720F3FBD600AC5BFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE24DA620F3FBD600AC5BFE /* Assets.xcassets */; };
 		CEE24DAA20F3FBD600AC5BFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE24DA820F3FBD600AC5BFE /* LaunchScreen.storyboard */; };
@@ -80,8 +78,6 @@
 		CEAB20E220F4012600B69224 /* NotificationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
 		CEAB20E420F4013500B69224 /* MyProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyProfileViewController.h; sourceTree = "<group>"; };
 		CEAB20E520F4013500B69224 /* MyProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyProfileViewController.m; sourceTree = "<group>"; };
-		CEAB20E720F40CD700B69224 /* NavBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavBarController.h; sourceTree = "<group>"; };
-		CEAB20E820F40CD700B69224 /* NavBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavBarController.m; sourceTree = "<group>"; };
 		CEAB20EA20F4142200B69224 /* Post.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
 		CEAB20EB20F4142200B69224 /* Post.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
 		CEAB20ED20F415A400B69224 /* PostEditViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostEditViewController.h; sourceTree = "<group>"; };
@@ -91,8 +87,6 @@
 		CEE24D9A20F3FBD500AC5BFE /* fbuinstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fbuinstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE24D9D20F3FBD500AC5BFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CEE24D9E20F3FBD500AC5BFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CEE24DA020F3FBD500AC5BFE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CEE24DA120F3FBD500AC5BFE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CEE24DA420F3FBD500AC5BFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEE24DA620F3FBD600AC5BFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEE24DA920F3FBD600AC5BFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -158,6 +152,157 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CE325FAF20F9090500779EFB /* HomeTimeline */ = {
+			isa = PBXGroup;
+			children = (
+				CE325FB220F9092D00779EFB /* Controllers */,
+				CE325FB120F9092800779EFB /* Views */,
+				CE325FB020F9091C00779EFB /* Models */,
+			);
+			path = HomeTimeline;
+			sourceTree = "<group>";
+		};
+		CE325FB020F9091C00779EFB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE325FB120F9092800779EFB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEAB20F120F4285A00B69224 /* PostCell.h */,
+				CEAB20F220F4285A00B69224 /* PostCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE325FB220F9092D00779EFB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEAB20D820F4010300B69224 /* HomeViewController.h */,
+				CEAB20D920F4010300B69224 /* HomeViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CE325FB320F9093700779EFB /* TakePhoto */ = {
+			isa = PBXGroup;
+			children = (
+				CE325FB720F9096700779EFB /* Controllers */,
+				CE325FB620F9096300779EFB /* Views */,
+				CE325FB520F9095F00779EFB /* Models */,
+			);
+			path = TakePhoto;
+			sourceTree = "<group>";
+		};
+		CE325FB420F9095400779EFB /* ProfilePage */ = {
+			isa = PBXGroup;
+			children = (
+				CE325FBA20F9097600779EFB /* Controllers */,
+				CE325FB920F9097100779EFB /* Views */,
+				CE325FB820F9096C00779EFB /* Models */,
+			);
+			path = ProfilePage;
+			sourceTree = "<group>";
+		};
+		CE325FB520F9095F00779EFB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE325FB620F9096300779EFB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE325FB720F9096700779EFB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE02074420F565000006FF33 /* TakePhotoViewController.h */,
+				CE02074520F565000006FF33 /* TakePhotoViewController.m */,
+				CEAB20DE20F4011C00B69224 /* AddViewController.h */,
+				CEAB20DF20F4011C00B69224 /* AddViewController.m */,
+				CEAB20ED20F415A400B69224 /* PostEditViewController.h */,
+				CEAB20EE20F415A400B69224 /* PostEditViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CE325FB820F9096C00779EFB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE325FB920F9097100779EFB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE02073B20F52F270006FF33 /* ProfilePictureCell.h */,
+				CE02073C20F52F270006FF33 /* ProfilePictureCell.m */,
+				CE02073E20F54EBC0006FF33 /* ProfileHeaderView.h */,
+				CE02073F20F54EBC0006FF33 /* ProfileHeaderView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE325FBA20F9097600779EFB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEAB20E420F4013500B69224 /* MyProfileViewController.h */,
+				CEAB20E520F4013500B69224 /* MyProfileViewController.m */,
+				CE02074120F55B750006FF33 /* DetailsViewController.h */,
+				CE02074220F55B750006FF33 /* DetailsViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CE325FBB20F9098800779EFB /* LoginPage */ = {
+			isa = PBXGroup;
+			children = (
+				CE325FBE20F9099500779EFB /* Controllers */,
+				CE325FBD20F9099100779EFB /* Views */,
+				CE325FBC20F9098D00779EFB /* Models */,
+			);
+			path = LoginPage;
+			sourceTree = "<group>";
+		};
+		CE325FBC20F9098D00779EFB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE325FBD20F9099100779EFB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE325FBE20F9099500779EFB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEAB20D520F4009A00B69224 /* LoginViewController.h */,
+				CEAB20D620F4009A00B69224 /* LoginViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CE325FBF20F909AE00779EFB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		CEAB20D220F4006600B69224 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,12 +315,6 @@
 		CEAB20D320F4006D00B69224 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				CEAB20F120F4285A00B69224 /* PostCell.h */,
-				CEAB20F220F4285A00B69224 /* PostCell.m */,
-				CE02073B20F52F270006FF33 /* ProfilePictureCell.h */,
-				CE02073C20F52F270006FF33 /* ProfilePictureCell.m */,
-				CE02073E20F54EBC0006FF33 /* ProfileHeaderView.h */,
-				CE02073F20F54EBC0006FF33 /* ProfileHeaderView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -183,26 +322,10 @@
 		CEAB20D420F4007F00B69224 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				CEAB20DE20F4011C00B69224 /* AddViewController.h */,
-				CEAB20DF20F4011C00B69224 /* AddViewController.m */,
-				CEAB20ED20F415A400B69224 /* PostEditViewController.h */,
-				CEAB20EE20F415A400B69224 /* PostEditViewController.m */,
-				CEAB20D520F4009A00B69224 /* LoginViewController.h */,
-				CEAB20D620F4009A00B69224 /* LoginViewController.m */,
-				CEAB20D820F4010300B69224 /* HomeViewController.h */,
-				CEAB20D920F4010300B69224 /* HomeViewController.m */,
 				CEAB20DB20F4011100B69224 /* SearchViewController.h */,
 				CEAB20DC20F4011100B69224 /* SearchViewController.m */,
 				CEAB20E120F4012600B69224 /* NotificationViewController.h */,
 				CEAB20E220F4012600B69224 /* NotificationViewController.m */,
-				CEAB20E420F4013500B69224 /* MyProfileViewController.h */,
-				CEAB20E520F4013500B69224 /* MyProfileViewController.m */,
-				CEAB20E720F40CD700B69224 /* NavBarController.h */,
-				CEAB20E820F40CD700B69224 /* NavBarController.m */,
-				CE02074120F55B750006FF33 /* DetailsViewController.h */,
-				CE02074220F55B750006FF33 /* DetailsViewController.m */,
-				CE02074420F565000006FF33 /* TakePhotoViewController.h */,
-				CE02074520F565000006FF33 /* TakePhotoViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -232,15 +355,18 @@
 		CEE24D9C20F3FBD500AC5BFE /* fbuinstagram */ = {
 			isa = PBXGroup;
 			children = (
+				CE325FBF20F909AE00779EFB /* Services */,
+				CE325FBB20F9098800779EFB /* LoginPage */,
+				CE325FB420F9095400779EFB /* ProfilePage */,
+				CE325FB320F9093700779EFB /* TakePhoto */,
+				CE325FAF20F9090500779EFB /* HomeTimeline */,
 				CEAB20D420F4007F00B69224 /* Controllers */,
 				CEAB20D320F4006D00B69224 /* Views */,
 				CEAB20D220F4006600B69224 /* Models */,
 				CEE24D9D20F3FBD500AC5BFE /* AppDelegate.h */,
 				CEE24D9E20F3FBD500AC5BFE /* AppDelegate.m */,
-				CEE24DA020F3FBD500AC5BFE /* ViewController.h */,
-				CEE24DA120F3FBD500AC5BFE /* ViewController.m */,
-				CEE24DA320F3FBD500AC5BFE /* Main.storyboard */,
 				CEE24DA620F3FBD600AC5BFE /* Assets.xcassets */,
+				CEE24DA320F3FBD500AC5BFE /* Main.storyboard */,
 				CEE24DA820F3FBD600AC5BFE /* LaunchScreen.storyboard */,
 				CEE24DAB20F3FBD600AC5BFE /* Info.plist */,
 				CEE24DAC20F3FBD600AC5BFE /* main.m */,
@@ -483,11 +609,9 @@
 			files = (
 				CEAB20D720F4009A00B69224 /* LoginViewController.m in Sources */,
 				CEAB20E620F4013500B69224 /* MyProfileViewController.m in Sources */,
-				CEE24DA220F3FBD500AC5BFE /* ViewController.m in Sources */,
 				CE02074620F565000006FF33 /* TakePhotoViewController.m in Sources */,
 				CEAB20F320F4285A00B69224 /* PostCell.m in Sources */,
 				CE02074020F54EBC0006FF33 /* ProfileHeaderView.m in Sources */,
-				CEAB20E920F40CD700B69224 /* NavBarController.m in Sources */,
 				CEE24DAD20F3FBD600AC5BFE /* main.m in Sources */,
 				CE02074320F55B750006FF33 /* DetailsViewController.m in Sources */,
 				CEAB20E020F4011C00B69224 /* AddViewController.m in Sources */,

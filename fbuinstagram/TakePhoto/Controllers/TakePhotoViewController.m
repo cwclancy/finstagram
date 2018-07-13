@@ -77,7 +77,6 @@
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
     PostEditViewController *pevController = [segue destinationViewController];
-    NSLog(@"%@", self.image);
     pevController.post = self.image;
     
 }
@@ -93,7 +92,6 @@
     NSData *imageData = photo.fileDataRepresentation;
     UIImage *image = [UIImage imageWithData:imageData];
     // Add the image to captureImageView here...
-    NSLog(@"image %@", image);
     self.image = [self fixOrientationOfImage:image];
     [self performSegueWithIdentifier:@"toEditSegue" sender:nil];
 

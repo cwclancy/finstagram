@@ -69,11 +69,6 @@
     
     Post *post = self.posts[indexPath.item];
     cell.post = post;
-    /*
-     NSString *baseURLString = @"https://image.tmdb.org/t/p/w500";
-     NSString *posterURLString = movie[@"poster_path"];
-     NSString *fullPosterURLString = [baseURLString stringByAppendingString:posterURLString];
-     */
     return cell;
 }
 

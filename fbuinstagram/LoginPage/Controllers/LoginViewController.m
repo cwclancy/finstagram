@@ -64,26 +64,49 @@
     PFUser *user = [PFUser user];
     user.username = self.usernameField.text;
     user.password = self.passwordField.text;
-    [user signUpInBackgroundWithBlock:^(BOOL succeeded, NSError * _Nullable error) {
-        if (error) {
-            NSLog(@"%@", error);
-        } else {
-            NSLog(@"here");
-            [self performSegueWithIdentifier:@"loginSegue" sender:nil] ;
-        }
-    }];
+    if ([self.usernameField.text isEqual: @""] || [self.passwordField.text isEqual: @""]) {
+        [self emptyAlert];
+    } else {
+        [user signUpInBackgroundWithBlock:^(BOOL succeeded, NSError * _Nullable error) {
+            if (error) {
+                NSLog(@"%@", error);
+            } else {
+                [self performSegueWithIdentifier:@"loginSegue" sender:nil] ;
+            }
+        }];
+    }
 }
 
 -(void)loginUser {
     NSString *username = self.usernameField.text;
     NSString *password = self.passwordField.text;
-    [PFUser logInWithUsernameInBackground:username password:password block:^(PFUser * _Nullable user, NSError * _Nullable error) {
-        if (error) {
-            NSLog(@"%@", error);
-        } else {
-            NSLog(@"login");
-            [self performSegueWithIdentifier:@"loginSegue" sender:nil] ;
-        }
+    if ([username  isEqual: @""] || [password  isEqual: @""]) {
+        [self emptyAlert];
+    } else {
+        [PFUser logInWithUsernameInBackground:username password:password block:^(PFUser * _Nullable user, NSError * _Nullable error) {
+            if (error) {
+                NSLog(@"%@", error);
+            } else {
+                [self performSegueWithIdentifier:@"loginSegue" sender:nil] ;
+            }
+        }];
+    }
+}
+
+-(void)emptyAlert {
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Error" message:@"fill out required fields"
+        preferredStyle:(UIAlertControllerStyleAlert)];
+    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"Cancel"
+    style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+
+    }];
+    [alert addAction:cancelAction];
+    
+    UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+    }];
+    [alert addAction:okAction];
+    [self presentViewController:alert animated:YES completion:^{
+
     }];
 }
 

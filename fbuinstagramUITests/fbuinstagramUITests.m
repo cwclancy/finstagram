@@ -33,10 +33,57 @@
 }
 
 
-- (void)testExample {
+- (void)testLoginWithValidCredentials {
     // Use recording to get started writing UI tests.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+    XCUIApplication *app = [[XCUIApplication alloc] init];
+    [app.textFields[@"username"] tap];
+    [app.textFields[@"username"] typeText:@"Connor"];
+    [app.textFields[@"password"] tap];
+    [app.textFields[@"password"] typeText:@"Clancy"];
+    [app.buttons[@"Login"] tap];
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        XCTAssert([app.tables[@"tableView"] exists]);
+    });
 }
+
+- (void)testLoginWithEmptyUsername {
+    XCUIApplication *app = [[XCUIApplication alloc] init];
+    [app.textFields[@"username"] tap];
+    [app.textFields[@"username"] typeText:@""];
+    [app.textFields[@"password"] tap];
+    [app.textFields[@"password"] typeText:@"Clancy"];
+    [app.buttons[@"Login"] tap];
+    XCTAssert([app.alerts[@"Error"] exists]);
+}
+
+- (void)testLoginWithEmptyPassword {
+    XCUIApplication *app = [[XCUIApplication alloc] init];
+    [app.textFields[@"username"] tap];
+    [app.textFields[@"username"] typeText:@"Connor"];
+    [app.textFields[@"password"] tap];
+    [app.textFields[@"password"] typeText:@""];
+    [app.buttons[@"Login"] tap];
+    XCTAssert([app.alerts[@"Error"] exists]);
+}
+
+- (void)testLoginWithInvalidCredentials {
+    XCUIApplication *app = [[XCUIApplication alloc] init];
+    [app.textFields[@"username"] tap];
+    [app.textFields[@"username"] typeText:@"Whats"];
+    [app.textFields[@"password"] tap];
+    [app.textFields[@"password"] typeText:@"Good"];
+    [app.buttons[@"Login"] tap];
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        XCTAssert(![app.tables[@"tableView"] exists]);
+    });
+  
+    
+    
+}
+
+
 
 
 
