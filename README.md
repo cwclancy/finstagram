@@ -15,6 +15,7 @@ The following **required** functionality is completed:
 - [y] User can view the last 20 posts submitted to "Instagram"
 - [y] User can pull to refresh the last 20 posts submitted to "Instagram"
 - [y] User can tap a post to view post details, including timestamp and caption.
+	time can be added with a label but I didn't like the view - the code is in my file DetailsViewController to get the timestamp
 
 The following **optional** features are implemented:
 
@@ -64,6 +65,8 @@ Here's a walkthrough of implemented user stories:
 <img src='20posts.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 <img src='details.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 <img src='persistent.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+The custom camera view and posting are the video file that is in the directory.
 
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
